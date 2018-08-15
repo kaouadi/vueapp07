@@ -1,18 +1,24 @@
 <template>
   <div id="app">
 
-    <Home/>
+    <Block0/>
+    <Block1/>
+    <Block2/>
 
   </div>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import Block0 from './components/Block0.vue'
+import Block1 from './components/Block1.vue'
+import Block2 from './components/Block2.vue'
 
 export default {
   name: 'app',
   components: {
-    Home
+    Block0,
+    Block1,
+    Block2
   }
 }
 </script>
