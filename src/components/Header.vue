@@ -17,8 +17,11 @@
                 <a href="#">Contact</a>
             </li>
             <li>
-                <a href="#">Login</a>
+                <a href="#" class="btn-floating indigo darken-4 z-depth-0">
+                    <i class="material-icons">notifications</i>
+                </a>
             </li>
+            <li><span class="badge white-text pink new">5</span></li>
         </ul>
 
     </div>
@@ -48,5 +51,12 @@ export default {
 </script>
 
 <style>
+
+nav .badge{
+    position: relative;
+    top: 20px;
+    right: 20px;
+
+}
 
 </style>
