@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Cards from '@/components/Cards'
 import Collections from '@/components/Collections'
+import Modals from '@/components/Modals'
 
 
 Vue.use(Router)
@@ -23,6 +24,11 @@ const router = new Router({
       path: '/collections',
       name: 'Collections',
       component: Collections
+    },
+    {
+      path: '/modals',
+      name: 'Modals',
+      component: Modals
     }
 ]
 })
