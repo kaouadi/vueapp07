@@ -43,7 +43,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .col > div {
     background: lightblue;
     height: 120px;
