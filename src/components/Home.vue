@@ -38,7 +38,11 @@
 
 <script>
 export default {
-    name: 'Home'
+    name: 'Home',
+    mounted(){
+        var M = window.M
+        console.log(M);
+    }
 
 }
 </script>
