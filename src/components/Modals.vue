@@ -1,4 +1,5 @@
 <template>
+
 <div class="container">
     <h2>Modals</h2>
     <a href="#terms" class="btn orange modal-trigers">Terms & conditions</a>
