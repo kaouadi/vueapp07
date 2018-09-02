@@ -40,8 +40,8 @@
 export default {
     name: 'Home',
     mounted(){
-        var M = window.M
-        console.log(M);
+        //var M = window.M
+        //console.log(M);
     }
 
 }

@@ -3,7 +3,7 @@
 <nav class="nav-vrapper indigo">
     <div class="container">
         <a href="#" class="brand-logo">Site Title</a>
-        <a href="#" class="sidenav-trigger">
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
             <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
@@ -38,12 +38,15 @@ export default {
     name: 'Header',
     created(){
 
-        console.log('--created--')
-
     },
     mounted(){
-        console.log(this.$el);
-        console.log(this.$vnode);
+
+        var sidenavs = document.querySelectorAll('.sidenav');
+        
+        for (var i = 0; i < sidenavs.length; i++){
+            window.M.Sidenav.init(sidenavs[i]);
+        }
+
     }
 }
 

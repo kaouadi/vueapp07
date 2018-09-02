@@ -19,7 +19,7 @@
 
 <script>
 export default {
-    name: 'Sidenav'
+    name: 'Sidenav',
 
 }
 </script>
