@@ -1,0 +1,2 @@
+npm install --save-dev css-loader
+npm WARN html-webpack-externals-plugin@3.8.0 requires a peer of html-webpack-plugin@^2.0.0 but none is installed. You must install peer dependencies yourself.

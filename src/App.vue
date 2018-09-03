@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-
+    <!--
     <Header/>
-
     <Sidenav/>
+    -->
     <router-view/>
+ 
 
   </div>
 </template>
