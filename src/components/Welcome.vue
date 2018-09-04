@@ -11,9 +11,14 @@
                     <i class="material-icons">menu</i>
                 </a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#">Photos</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="#" class="tooltiped btn-floating btn-small indigo darken-4" data-tooltip="this is instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
                 </ul>
                 <ul class="sidenav grey lighten-2" id="mobile-menu">
                     <li><a href="#">Photos</a></li>
@@ -23,7 +28,7 @@
             </div>
         </nav>
     </header>
-    <section class="container section" id="photo's">
+    <section class="container section scrollspy" id="photos">
         <div class="row">
             <div class="col s12 l4">
                 <img src="../assets/img/portrait.jpg" alt="" class="responsive-img materialboxed">
@@ -58,8 +63,167 @@
             
         </div>
     </section>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="../assets/img/street.jpg" alt="" class="responsive-img">
+
+        </div>
+
+    </div>
+
+    <section class="container section scrollspy" id="services">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="indigo-text text-darken-4">what I do..</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                </p>
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#photography" class="indigo-text text-darken-4 active">Photography</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+                    </li>
+                </ul>
+                <div class="col s12" id="photography">
+                    <p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                    </p>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                    </p>
+                </div>
+                <div class="col s12" id="editing">
+                    <p class="flow-text indigo-text text-darken-4">EDITING</p>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                    </p>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                    </p>
+            </div>
+
+            </div>
+            
+        </div>
+    
+    </section>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="../assets/img/stars.jpg" alt="" class="responsive-img">
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        </p>
+
+    </div>
+
+    <section class="section container scrollspy" id="contact">
+
+        <div class="row">
+            <div class="col s12 l5">
+
+                <h2 class="indigo-text text-darken-4">Get in touch</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                </p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form action="">
+
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email"/>
+                        <label for="email">Your email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea class="materialize-textarea" id="message"/>
+                        <label for="message">Your message</label>
+                    </div>
+                     <div class="input-field">
+                        <input type="text" id="date" class="datepicker"/>
+                        <label for="date">Choose a date that you need..</label>
+                    </div>
+                    <div class="input-field">
+                        <p>Service required...</p>
+                        <p>
+                            <label>
+                            <input type="checkbox">
+                            <span>Photography</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn">submit</button>
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>About me</h5>
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                    </p>
+
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5>Connect</h5>
+                    <ul>
+                        <li class="grey-text text-lighten-3">Facebook</li>
+                        <li class="grey-text text-lighten-3">Twitter</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2018</div>
+        </div>
+    </footer>
 
 </div>
+
 
 
 
@@ -83,6 +247,37 @@ export default {
             window.M.Materialbox.init(materialBoxeds[i]);
         }
 
+        var parallaxes = document.querySelectorAll('.parallax');
+        
+        for (var i = 0; i < parallaxes.length; i++){
+            window.M.Parallax.init(parallaxes[i]);
+        }
+
+        var tabs = document.querySelectorAll('.tabs');
+        
+        for (var i = 0; i < tabs.length; i++){
+            window.M.Tabs.init(tabs[i]);
+        }
+
+        var datepickers = document.querySelectorAll('.datepicker');
+        
+        for (var i = 0; i < datepickers.length; i++){
+            window.M.Datepicker.init(datepickers[i], {disableWeekends: true});
+        }
+
+        var tooltipeds = document.querySelectorAll('.tooltiped');
+        
+        for (var i = 0; i < tooltipeds.length; i++){
+            window.M.Tooltip.init(tooltipeds[i]);
+        }
+
+        var scrollspys = document.querySelectorAll('.scrollspy');
+        
+        for (var i = 0; i < scrollspys.length; i++){
+            window.M.ScrollSpy.init(scrollspys[i]);
+        }
+
+
     }
 
 }
@@ -94,6 +289,17 @@ header{
     background-size: cover;
     background-position: center;
     min-height: 1000px;
+}
+.section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+.tabs .indicator{
+    background-color: #1a237e;
+
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
 }
 @media screen and (max-width: 670px){
     header{
