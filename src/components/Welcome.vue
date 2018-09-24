@@ -243,38 +243,38 @@ export default {
 
         var materialBoxeds = document.querySelectorAll('.materialboxed');
         
-        for (var i = 0; i < materialBoxeds.length; i++){
-            window.M.Materialbox.init(materialBoxeds[i]);
+        for (var j = 0; j < materialBoxeds.length; j++){
+            window.M.Materialbox.init(materialBoxeds[j]);
         }
 
         var parallaxes = document.querySelectorAll('.parallax');
         
-        for (var i = 0; i < parallaxes.length; i++){
-            window.M.Parallax.init(parallaxes[i]);
+        for (var k = 0; k < parallaxes.length; k++){
+            window.M.Parallax.init(parallaxes[k]);
         }
 
         var tabs = document.querySelectorAll('.tabs');
         
-        for (var i = 0; i < tabs.length; i++){
-            window.M.Tabs.init(tabs[i]);
+        for (var x = 0; x < tabs.length; x++){
+            window.M.Tabs.init(tabs[x]);
         }
 
         var datepickers = document.querySelectorAll('.datepicker');
         
-        for (var i = 0; i < datepickers.length; i++){
-            window.M.Datepicker.init(datepickers[i], {disableWeekends: true});
+        for (var y = 0; y < datepickers.length; y++){
+            window.M.Datepicker.init(datepickers[y], {disableWeekends: true});
         }
 
         var tooltipeds = document.querySelectorAll('.tooltiped');
         
-        for (var i = 0; i < tooltipeds.length; i++){
-            window.M.Tooltip.init(tooltipeds[i]);
+        for (var z = 0; z < tooltipeds.length; z++){
+            window.M.Tooltip.init(tooltipeds[z]);
         }
 
         var scrollspys = document.querySelectorAll('.scrollspy');
         
-        for (var i = 0; i < scrollspys.length; i++){
-            window.M.ScrollSpy.init(scrollspys[i]);
+        for (var w = 0; w < scrollspys.length; w++){
+            window.M.ScrollSpy.init(scrollspys[w]);
         }
 
 
