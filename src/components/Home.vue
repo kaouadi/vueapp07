@@ -6,26 +6,26 @@
     <h4> Shadow & depth</h4>
     
     <div class="row">
-        <div class="col s2">
+        <div class="col s6 l2">
             <div></div>
 
         </div>
-        <div class="col s2">
+        <div class="col s6 l2">
             <div></div>
         </div>
-        <div class="col s2">
+        <div class="col s6 l2">
             <div class="z-depth-1"></div>
 
         </div>
-        <div class="col s2">
+        <div class="col s6 l2">
             <div class="z-depth-2"></div>
 
         </div>
-        <div class="col s2">
+        <div class="col s6 l2">
              <div class="z-depth-2"></div>
 
         </div>
-        <div class="col s2">
+        <div class="col s6 l2">
              <div class="z-depth-1"></div>
 
         </div>

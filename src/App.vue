@@ -1,9 +1,7 @@
 <template>
   <div id="app">
-    <!--
-    <Header/>
+    <!--<Header/>-->
     <Sidenav/>
-    -->
     <router-view/>
  
 

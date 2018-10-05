@@ -38,6 +38,15 @@ export default {
     name: 'Header',
     created(){
 
+    },
+    mounted(){
+
+        var sidenavs = document.querySelectorAll('.sidenav');
+        
+        for (var i = 0; i < sidenavs.length; i++){
+            window.M.Sidenav.init(sidenavs[i]);
+        }
+
     }
 }
 

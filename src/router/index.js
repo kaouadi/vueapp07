@@ -4,7 +4,8 @@ import Home from '@/components/Home'
 import Cards from '@/components/Cards'
 import Collections from '@/components/Collections'
 import Modals from '@/components/Modals'
-import Welcome from "@/components/Welcome";
+import Grids from '@/components/Grids'
+import Welcome from "@/components/Welcome"
 
 
 Vue.use(Router)
@@ -20,6 +21,11 @@ const router = new Router({
       path: '/cards',
       name: 'Cards',
       component: Cards
+    },
+    {
+      path: '/grids',
+      name: 'Grids',
+      component: Grids
     },
     {
       path: '/collections',
