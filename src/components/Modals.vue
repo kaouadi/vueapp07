@@ -7,7 +7,7 @@
     <a class="waves-effect waves-light btn orange modal-trigger" href="#modal1">Modal</a>
 
     <!-- Modal Structure -->
-    <div id="modal1" class="modal">
+    <div id="modal1" class="modal" ref="modal1">
         <div class="modal-content">
             <h4>Modal Header</h4>
             <p>
@@ -17,7 +17,7 @@
             </p>
         </div>
         <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+            <a href="#" @click.prevent="add" class="modal-close waves-effect waves-green btn-flat" ref="modal1">Agree</a>
         </div>
     </div>
 </div>
@@ -33,7 +33,13 @@ export default {
         for (var i = 0; i < modals.length; i++){
             window.M.Modal.init(modals[i]);
         }
+    },
+    methods:{
+        add(e){
+            //e.stopPropagation();
+        }
     }
+
 
 }
 </script>
