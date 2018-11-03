@@ -2,7 +2,7 @@
 
 <ul class="sidenav" id="mobile-links">
     <li>
-                <a href="#">Home</a>
+            <a href="#">Home</a>
             </li>
             <li>
                 <a href="#">About</a>
@@ -20,6 +20,7 @@
 <script>
 export default {
     name: 'Sidenav',
+    
 
 }
 </script>

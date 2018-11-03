@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <!--<Header/>-->
-    <Sidenav/>
+    <Header v-on:changeTitle="updateTitle($event)"></Header>
+    <!--<Sidenav/>-->
     <router-view/>
+    
  
 
   </div>
@@ -17,10 +18,19 @@ export default {
   components: {
     Header,
     Sidenav
+  },
+  methods:{
+    updateTitle: function(event){
+      console.log('etape 2');
+      console.log(event);
+    }
   }
+
   
 }
 </script>
+
+
 
 <style>
 </style>

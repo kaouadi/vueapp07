@@ -1,6 +1,6 @@
 <template>
 
-<div class="container">
+<div class="container" >
     <h2>Modals</h2>
 
     <!-- Modal Trigger -->
@@ -17,7 +17,7 @@
             </p>
         </div>
         <div class="modal-footer">
-            <a href="#" @click.prevent="add" class="modal-close waves-effect waves-green btn-flat" ref="modal1">Agree</a>
+            <a href="#" @click.prevent="add('close', $event)" class="modal-close waves-effect waves-green btn-flat" >Agree</a>
         </div>
     </div>
 </div>
@@ -27,16 +27,15 @@
 <script>
 export default {
     name: 'Modals',
-    mounted(){
-        var modals = document.querySelectorAll('.modal');
-        
-        for (var i = 0; i < modals.length; i++){
-            window.M.Modal.init(modals[i]);
-        }
-    },
     methods:{
-        add(e){
-            //e.stopPropagation();
+        add: function (message, event){
+            event.stopPropagation();
+            //var instance = window.M.Modal.getInstance(this.$refs.modal1)
+            console.log(Object.getOwnPropertyNames(this.$refs)[0]);
+            //instance.close();
+        },
+        doThis: function(){
+            console.log('--dothis--');
         }
     }
 

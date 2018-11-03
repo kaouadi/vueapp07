@@ -8,7 +8,7 @@
         </a>
         <ul class="right hide-on-med-and-down">
             <li>
-                <a href="#">Home</a>
+                <a href="#" v-on:click="changeTitle">Home</a>
             </li>
             <li>
                 <a href="#">About</a>
@@ -47,6 +47,13 @@ export default {
             window.M.Sidenav.init(sidenavs[i]);
         }
 
+    },
+    methods:{
+      changeTitle: function(){
+        console.log('etape 1');
+        this.$emit('changeTitle', 'Vue Ninjas');
+        console.log('etape 3');
+      }
     }
 }
 
